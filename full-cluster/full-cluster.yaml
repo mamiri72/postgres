@@ -43,7 +43,7 @@ spec:
       pg_stat_statements.track: all
       auto_explain.log_min_duration: '10s'
     pg_hba:
-      - host all all 10.244.0.0/16 md5
+      - host all all all md5
 
   bootstrap:
     initdb:
@@ -73,8 +73,7 @@ spec:
       cpu: "2"
 
   affinity:
-    enablePodAntiAffinity: true
-    topologyKey: failure-domain.beta.kubernetes.io/zone
+    topologyKey: topology.kubernetes.io/zone
 
   nodeMaintenanceWindow:
     inProgress: false
