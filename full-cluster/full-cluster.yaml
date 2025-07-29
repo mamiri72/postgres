@@ -10,6 +10,8 @@ data:
 kind: Secret
 metadata:
   name: cluster-example-app-user
+  labels:
+    cnpg.io/reload: "true"
 type: kubernetes.io/basic-auth
 ---
 apiVersion: v1
