@@ -519,9 +519,9 @@ data:
   # Otherwise pass connection values in
   metadataConnection:
     user: app
-    pass: "MEhdIVE0bk44MlNTaVlIb3N3cU9VUlp2UURhTDRLcE5FbHNDRUVlOWJ3RHhNZDczS2NrSWVYelM1Y1U2TGlDMg=="
+    pass: "0H]!Q4nN82SSiYHoswqOURZvQDaL4KpNElsCEEe9bwDxMd73KckIeXzS5cU6LiC2"
     protocol: postgresql
-    host: cluster-example-full-rw.full-cluster.svc.cluster.local
+    host: cluster-example-full-rw.full-cluster
     port: 5432
     db: app
     sslmode: disable
