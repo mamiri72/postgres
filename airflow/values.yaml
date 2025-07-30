@@ -523,7 +523,7 @@ data:
     protocol: postgresql
     host: cluster-example-full-rw.full-cluster.svc.cluster.local
     port: 5432
-    db: postgres
+    db: app
     sslmode: disable
     # Add custom annotations to the metadata connection secret
     secretAnnotations: {}
